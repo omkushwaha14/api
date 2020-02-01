@@ -1,10 +1,10 @@
 const mysql = require('mysql2')
 
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'myuser',
-    password: 'mypass',
-    database: 'mytestdb'
+    host: 'us-cdbr-iron-east-04.cleardb.net',
+    user: 'b7904b30b27522',
+    password: '103787b7',
+    database: 'heroku_9083ac0b1eed68e'
 })
 
 function getAllPersons () {
